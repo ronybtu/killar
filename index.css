@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.men-hader{
+    padding: 1rem 0.8rem 0 0.5rem;
+}
+
+.men-nevbar{
+    display: flex;
+    align-items: center;
+}
+
+.right-bar{
+    display: flex;
+    gap: 1px;
+}
+
+
+.log-in-button{
+    width: 100px;
+    height: 50px;
+    background-color: #0264D6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.log-in-text{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-bar{
+    margin-left: auto;
+}

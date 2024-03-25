@@ -41,4 +41,168 @@
 
 .left-bar{
     margin-left: auto;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.menu-img{
+    height: 37px;
+}
+.killar-group{
+    display: flex;
+    gap: 0.4rem;
+}
+.killar-img{
+    height: 35px;
+}
+
+.log-in-text2{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.log-in-icon2{
+    display: none;
+}
+.log-in-text2{
+    display: none;
+}
+@media only screen and (min-width: 500px){
+    .log-in-button{
+        width: 115px;
+        /* height: 55px; */
+    }
+}
+@media only screen and (min-width: 740px){
+    .men-hader{
+        padding: 1.1rem 7rem 0 7rem;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .men-hader{
+        padding: 0.8rem 2.1rem 0 2rem;
+    }
+    .menu-img{
+        height: 37px;
+    }
+    .killar-img{
+        height: 38px;
+    }
+    .log-in-button{
+        width: 115px;
+        /* height: 55px; */
+    }
+}
+
+
+@media only screen and (min-width: 990px){
+    .menu-icon{
+        display: none;
+    }
+    .log-in-button{
+        /* background-color: red; */
+        width: 145px;
+        border-radius: 4px;
+    }
+    .log-in-icon{
+        display: none;
+    }
+    .log-in-text{
+        display: none;
+    }
+    .men-nevbar{
+        margin-right: 0.7rem;
+    }
+    .killar-img{
+        height: 37px;
+        /* margin-right: 0.1rem; */
+    }
+    .log-in-icon2{
+        /* height: 52px; */
+        display: inline-block;
+    }
+    .log-in-text2{
+        display: inline-block;
+    }
+    .log-in-icon3{
+    display: none;
+    }
+}
+.log-in{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.log-in-text1{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.log-in-text1,
+.log-in-icon3{
+    display: none;
+}
+@media only screen and (min-width: 990px){
+    .log-in-text1{
+        display: block;
+    }
+    .log-in-icon3{
+        display: block;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px){
+    .men-nevbar{
+        padding: 0rem 1rem 0 1rem;
+    }
+    .killar-img{
+        height: 35px;
+    }
+    .log-in-button{
+        width: 130px;
+        height: 45px;
+    }
+    .log-in-text2-signup{
+        /* height: 10px; */
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .log-in-text1{
+    font-size: 10px;
+    font-weight: bold;
+    }
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #224870;
+    font-weight: bold;
+    margin-left: 27px;
+}
+.killar-menu-groups{
+    display: flex;
+    /* gap: ; */
+}
+.home-text,
+.home-icon{
+    display: none;
+}
+
+@media only screen and (min-width: 990px){
+.home-text{
+    display: block;
+}
+.home-icon{
+    display: block;
+}
+
 }

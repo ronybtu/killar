@@ -6,203 +6,173 @@
 
 
 
-.men-hader{
-    padding: 1rem 0.8rem 0 0.5rem;
+.nevigtion-bar{
+    padding: 1rem;
 }
 
-.men-nevbar{
+.first-unodar-list{
     display: flex;
-    align-items: center;
-}
-
-.right-bar{
-    display: flex;
-    gap: 1px;
-}
-
-
-.log-in-button{
-    width: 100px;
-    height: 50px;
-    background-color: #0264D6;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4rem;
-}
-
-.log-in-text{
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.left-bar{
-    margin-left: auto;
-    display: flex;
-    gap: 1.5rem;
-}
-
-
-.menu-img{
-    height: 37px;
-}
-.killar-group{
-    display: flex;
-    gap: 0.4rem;
-}
-.killar-img{
-    height: 35px;
-}
-
-.log-in-text2{
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.log-in-icon2{
-    display: none;
-}
-.log-in-text2{
-    display: none;
-}
-@media only screen and (min-width: 500px){
-    .log-in-button{
-        width: 115px;
-        /* height: 55px; */
-    }
-}
-@media only screen and (min-width: 740px){
-    .men-hader{
-        padding: 1.1rem 7rem 0 7rem;
-    }
-}
-
-
-
-@media only screen and (min-width: 768px){
-    .men-hader{
-        padding: 0.8rem 2.1rem 0 2rem;
-    }
-    .menu-img{
-        height: 37px;
-    }
-    .killar-img{
-        height: 38px;
-    }
-    .log-in-button{
-        width: 115px;
-        /* height: 55px; */
-    }
-}
-
-
-@media only screen and (min-width: 990px){
-    .menu-icon{
-        display: none;
-    }
-    .log-in-button{
-        /* background-color: red; */
-        width: 145px;
-        border-radius: 4px;
-    }
-    .log-in-icon{
-        display: none;
-    }
-    .log-in-text{
-        display: none;
-    }
-    .men-nevbar{
-        margin-right: 0.7rem;
-    }
-    .killar-img{
-        height: 37px;
-        /* margin-right: 0.1rem; */
-    }
-    .log-in-icon2{
-        /* height: 52px; */
-        display: inline-block;
-    }
-    .log-in-text2{
-        display: inline-block;
-    }
-    .log-in-icon3{
-    display: none;
-    }
-}
-.log-in{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-.log-in-text1{
-    font-size: small;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.log-in-text1,
-.log-in-icon3{
-    display: none;
-}
-@media only screen and (min-width: 990px){
-    .log-in-text1{
-        display: block;
-    }
-    .log-in-icon3{
-        display: block;
-    }
-
-}
-
-
-@media only screen and (min-width: 1200px){
-    .men-nevbar{
-        padding: 0rem 1rem 0 1rem;
-    }
-    .killar-img{
-        height: 35px;
-    }
-    .log-in-button{
-        width: 130px;
-        height: 45px;
-    }
-    .log-in-text2-signup{
-        /* height: 10px; */
-        font-size: 10px;
-        font-weight: bold;
-    }
-    .log-in-text1{
-    font-size: 10px;
-    font-weight: bold;
-    }
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 550;
 }
 
 
 .home{
+
+}
+
+.second-unodar-list{
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    /* padding: 1rem; */
+}
+
+.first-unodar-list li{
+    margin-right: 4rem;
+
+}
+
+.Personal-information{
     display: flex;
     align-items: center;
-    font-size: 12px;
-    color: #224870;
-    font-weight: bold;
-    margin-left: 27px;
+    justify-content: space-between;
+    padding: 5rem;
+
 }
-.killar-menu-groups{
+
+
+.mr{
+    margin-top: 2rem;
+}
+
+.my-name{
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size:2rem;
+    max-width: 21rem;
+}
+.data p {
+    max-width:25rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #423e3ede;
+}
+
+.download button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    background-color: #ff6464;
+}
+
+
+.skill-groups{
+    width: 100%;
+    height: auto;
+    background-color:#d4edf5;
     display: flex;
-    /* gap: ; */
-}
-.home-text,
-.home-icon{
-    display: none;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
 }
 
-@media only screen and (min-width: 990px){
-.home-text{
-    display: block;
+
+
+.first-skill{
+    /* padding: 2rem; */
 }
-.home-icon{
-    display: block;
+.recent p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 1rem;
 }
 
+
+.meking-groups{
+    width: 418px;
+    height: 295px;
+    background-color:#fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.meking p{
+    width: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 900;
+}
+
+.works-groups{
+    margin-top: 2rem;
+
+}
+
+
+.desing{
+    display: flex;
+    gap: 2rem;
+    /* padding: 0 0 0 1rem; */
+}
+
+.meking-text{
+    width: 20rem;
+}
+
+.mr2{
+    margin-top: 1.5rem;
+}
+
+.view-all{
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: end;
+    color: #59c5dd;
+}
+
+
+.det-of-bath{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+.designing-dash{
+    width: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 900;
+}
+.designnig{
+    display: flex;
+    gap: 1rem;
+}
+.det{
+    background-color: black;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    border-radius: 10px;
+}
+
+.dash{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #75646454;
+}
+
+.designing-text p{
+    width: 28rem;
+    margin-top: 3rem;
+    height: auto;
 }
